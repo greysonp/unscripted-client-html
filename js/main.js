@@ -4,7 +4,7 @@
     var _json;
 
     function init() {
-        $.getJSON('/unscripted-sample.json', function(json) {
+        $.getJSON('./unscripted-sample.json', function(json) {
             _json = json;
             applyRevision('greyson-bangor');
         });
