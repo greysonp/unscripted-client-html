@@ -1,0 +1,38 @@
+body, html {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    max-width: 500px;
+    height: 100%;
+    margin: 20px auto 0 auto;
+    padding: 50px 80px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 #aaa;
+    font-size: 18px;
+    line-height: 35px;
+    font-family: 'Droid Serif';
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 18px;
+    font-family: 'Droid Serif';
+    padding: 0 4px 4px 4px;
+    border: none;
+    border-radius: 0;
+    background: none;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 2px;
+    text-align: center;
+}
+
+select:focus {
+    outline: none;
+}
